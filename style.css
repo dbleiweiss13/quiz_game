@@ -1,0 +1,87 @@
+#headerDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+
+}
+
+#timer {
+    padding-left: 20px;
+}
+
+#questions-div {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: calc(70vh - 60px);
+}
+
+#questions-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+
+}
+
+#game-description { 
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+#question {
+    margin-bottom: 40px;
+    text-align: left;
+
+}
+
+#option-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.questionButtons {
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#question-result {
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.resultDiv {
+    border-top: solid;
+    border-color: black;
+    line-height: 60px;
+    width: 100%;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    #questions-container {
+        width: 90%;
+    
+    }
+  }

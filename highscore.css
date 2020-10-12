@@ -1,0 +1,36 @@
+.scoreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.scoreDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    margin-top: 100px;
+    min-height: 80%;
+}
+
+#highscoreContainer {
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: lightblue;
+    width: 50%;
+}
+
+#highscoreContainer > p {
+    font-size: 20px;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#buttonsDiv > button {
+    margin: 20px 5px;
+}

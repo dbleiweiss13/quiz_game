@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header id="headerDiv">
+      <a class="navLink" href="./highscore.html">Highscores</a>
+      <div id="timer">Timer: 00</div>
+    </header>
+
+    <div id="questions-div">
+      <div id="questions-container">
+        <h1 id="question">Coding Quiz Challenge</h1>
+
+        <p id="game-description">Test your coding knowledge in this challenging, timed, quiz. The game will run for 60 seconds answer as many questions you can in the alloted time
+        </p>
+    
+        <button id="start-button" type="button" class="btn btn-primary">Start</button>
+        
+    
+        <!-- <div id="question"></div> -->
+    
+        <div class="question-divs" id="option-list"></div>
+    
+        <div class="question-divs" id="question-result"></div>
+
+        <form class="hidden form-inline" id="highscoreForm">
+          <div class="d-flex align-items-center form-group mb-2">Enter Initials</div>
+          <div class="form-group mx-sm-3 mb-2">
+            <label class="sr-only">initials</label>
+            <input class="form-control" id="initials" placeholder="initials">
+          </div>
+          <button id="high-score-submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
